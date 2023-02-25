@@ -1,0 +1,48 @@
+.mysample{
+    background-color:#ffffff;
+}
+
+main p {
+    height:30rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:#000000;
+    font-size:2rem;
+    position:relative;
+}
+
+@media (max-width:911px){
+    main > p {font-size:1.7rem;height:25rem;}
+}
+
+@media (max-width:691px){
+    main > p {font-size:1.3rem;height:20rem;}
+}
+
+@media (max-width:533px){
+    main > p {font-size:0.8rem;height:15rem;}
+}
+
+#imageAbsolute {
+    height:120px;
+    position:absolute;
+    right:15px;
+    cursor:pointer;
+  }
+
+  @media (max-width:911px){
+    #imageAbsolute {height:100px;}
+  }
+
+  @media (max-width:859px){
+    #imageAbsolute {height:90px;}
+  }
+
+  @media (max-width:691px){
+    #imageAbsolute {height:80px;}
+  }
+
+  @media (max-width:533px){
+    #imageAbsolute {height:60px;}
+  }

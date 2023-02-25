@@ -1,0 +1,41 @@
+nav {display:flex;align-items:center;justify-content:space-between;background-color:#1e2225;padding:15px;height:25%;width:100vw;}
+#nav-common-content {display:flex;align-items: center;}
+#nav-common-content > img {height:2.7rem;}
+#nav-common-content > h1 {color:rgb(24, 167, 189);margin:0;padding:0 20px;font-size:30px;}
+#Navbar-form {display:flex;width:25rem;}
+#Navbar-form button {background-color:#ccc;border-radius:2rem 0 0 2rem;border:0;padding:10px 15px;}
+#Navbar-form button:focus {outline:none;}
+#Navbar-form input {background-color: #ccc;border-radius:0 2rem 2rem 0;border:0;padding:10px;width:35rem;}
+#Navbar-form input:focus {outline:none;}
+
+#user-identification {display:flex;align-items:center;justify-content: flex-end;justify-content:space-between;width:14.5rem;}
+#user-identification form button {border-radius:2rem;padding:10px 30px;border:0;}
+#user-identification form button:focus {outline:none;}
+#user-identification form:nth-child(1) button {background-color: #ccc;}
+#user-identification form:nth-child(2) button {background-color:rgb(24, 167, 189);color:#fff;}
+
+@media (max-width:859px){
+    nav {padding:9px;}
+    #nav-common-content > img {height:30px;}
+    #nav-common-content > h1 {font-size:15px;padding:0 1rem;}
+    #Navbar-form {width:10rem;display:flex;align-items:center;}
+    #Navbar-form > button {height:30px;padding:0.5px 6px 8px 9px;}
+    #Navbar-form > button > i {font-size:10px;}
+    #Navbar-form input {border-radius:0 15px 15px 0;border:0;padding:7.5px;width:10rem;font-size:10px;}
+    #user-identification {width:6.8rem;}
+    #user-identification form button {border-radius:30px;padding:5px 10px;border:0;font-size:10px;}
+}
+
+h1 {font-size:2.7rem;font-weight:bold;background-image: linear-gradient( to right,rgb(54, 205, 232),rgb(183, 225, 231));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+@media (max-width:911px){
+    header > h1 {font-size:2rem;}
+}
+
+@media (max-width:691px){
+    header > h1 {font-size:1.5rem;}
+}
+
+@media (max-width:533px){
+    header > h1 {font-size:1rem;}
+}

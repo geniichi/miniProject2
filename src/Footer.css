@@ -1,0 +1,32 @@
+footer {
+    background-color:#181b1e;
+    position:absolute;
+    bottom:-76px;
+    padding:20px;
+    width:100vw;
+}
+
+footer p {
+    color:#fff;
+    margin:0;
+    font-size:18px;
+}
+
+@media (max-width:911px){
+    footer {bottom:-169px}
+}
+
+@media (max-width:859px){
+    footer {bottom:-195px}
+    footer p {font-size:15px;}
+}
+
+@media (max-width:691px){
+    footer {bottom:-285px;}
+    footer p {font-size:11px;}
+}
+
+@media (max-width:533px){
+    footer {bottom:-373px;}
+    footer p {font-size:8px;}
+}
